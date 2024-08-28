@@ -14,17 +14,7 @@ The MQTT Rotary Sensor is a versatile project designed to integrate a rotary enc
   
 ## Images
 
-![IMG_2995](images/IMG_2995.png)
-*IMG_2995.png*
-
-![IMG_2996](blob/main/IMG_2996.png)
-*IMG_2996.png*
-
-![IMG_2997](images/IMG_2997.png)
-*IMG_2997.png*
-
-![IMG_2998](images/IMG_2998.png)
-*IMG_2998.png*
+blob/main/IMG_2996.png
 
 
 ## Components Used
