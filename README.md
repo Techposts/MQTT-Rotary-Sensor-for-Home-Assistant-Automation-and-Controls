@@ -29,21 +29,12 @@ The MQTT Rotary Sensor is a versatile project designed to integrate a rotary enc
 ## Example Home Assistant Automations
 Below are examples of how to use the MQTT messages sent by the rotary encoder to control lights or other devices in Home Assistant.
 
-**Adjust Lamp Brightness:**
-```yaml
-alias: Adjust Lamp Brightness
-trigger:
-  - platform: state
-    entity_id: sensor.smart_rotary_switch_rotary_encoder_brightness
-action:
-  - service: light.turn_on
-    target:
-      entity_id: light.lamp
-    data:
-      brightness_pct: "{{ states('sensor.smart_rotary_switch_rotary_encoder_brightness') | int * 4 }}"
 
+Certainly! Here's the formatted section of the README.md file for "Adjust Lamp Color" and the rest:
 
-## Example Home Assistant Automations:**
+markdown
+Copy code
+## Example Home Assistant Automations
 
 **Adjust Lamp Color:**
 ```yaml
@@ -57,3 +48,24 @@ action:
       entity_id: light.lamp
     data:
       hs_color: "{{ states('sensor.smart_rotary_switch_rotary_encoder_color') | int }}"
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contributing
+Contributions are welcome! Feel free to submit issues or pull requests to improve this project.
+
+Acknowledgments
+Special thanks to the Home Assistant community for providing inspiration and support. This project was developed using the Arduino framework and various open-source libraries for ESP32 and MQTT.
+
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contributing
+Contributions are welcome! Feel free to submit issues or pull requests to improve this project.
+
+Acknowledgments
+Special thanks to the Home Assistant community for providing inspiration and support. This project was developed using the Arduino framework and various open-source libraries for ESP32 and MQTT.
+
+rust
+Copy code
