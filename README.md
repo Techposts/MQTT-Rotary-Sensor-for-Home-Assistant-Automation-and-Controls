@@ -13,9 +13,13 @@ The MQTT Rotary Sensor is a versatile project designed to integrate a rotary enc
 - **Home Assistant Automations:** Easily set up automations in Home Assistant to respond to changes in the MQTT messages sent by the rotary encoder, such as adjusting light brightness or color based on user input.
   
 ## Images
+IMG_2995.png
 
-blob/main/IMG_2996.png
+IMG_2996.png
 
+IMG_2997.png
+
+IMG_2998.png
 
 ## Components Used
 - **ESP32 Microcontroller:** The brain of the operation, handling Wi-Fi connectivity, MQTT communication, and rotary encoder input.
