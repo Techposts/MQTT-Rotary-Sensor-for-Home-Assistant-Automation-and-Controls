@@ -11,7 +11,7 @@ The MQTT Rotary Sensor is a versatile project designed to integrate a rotary enc
 - **Menu Navigation:** Navigate through different control options (e.g., adjust brightness, color, or temperature) using the rotary encoder, with each selection displayed on the OLED screen.
 - **Robust Error Handling:** Includes logic to handle Wi-Fi disconnections and retries, ensuring that the device remains operational and reconfigurable even in unstable network conditions.
 - **Home Assistant Automations:** Easily set up automations in Home Assistant to respond to changes in the MQTT messages sent by the rotary encoder, such as adjusting light brightness or color based on user input.
-IMG_2995.png
+/assets/images/IMG_2995.png
 
 IMG_2996.png
 
