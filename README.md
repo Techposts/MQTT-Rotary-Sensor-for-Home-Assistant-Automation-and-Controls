@@ -41,3 +41,19 @@ action:
       entity_id: light.lamp
     data:
       brightness_pct: "{{ states('sensor.smart_rotary_switch_rotary_encoder_brightness') | int * 4 }}"
+
+
+## Example Home Assistant Automations:**
+
+**Adjust Lamp Color:**
+```yaml
+alias: Adjust Lamp Color
+trigger:
+  - platform: state
+    entity_id: sensor.smart_rotary_switch_rotary_encoder_color
+action:
+  - service: light.turn_on
+    target:
+      entity_id: light.lamp
+    data:
+      hs_color: "{{ states('sensor.smart_rotary_switch_rotary_encoder_color') | int }}"
