@@ -49,7 +49,7 @@ action:
       entity_id: light.lamp
     data:
       brightness_pct: "{{ states('sensor.smart_rotary_switch_rotary_encoder_brightness') | int * 4 }}"
-
+```
 
 **Adjust Lamp Color:**
 ```yaml
@@ -64,4 +64,14 @@ action:
     data:
       hs_color: "{{ states('sensor.smart_rotary_switch_rotary_encoder_color') | int }}"
 ```
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contributing
+Contributions are welcome! Feel free to submit issues or pull requests to improve this project.
+
+## Acknowledgments
+Special thanks to the Home Assistant community for providing inspiration and support. This project was developed using the Arduino framework and various open-source libraries for ESP32 and MQTT.
+
 
